@@ -1,11 +1,14 @@
+import { Heading } from './components/Heading';
+
 import './styles/theme.css';
 import './styles/global.css';
 
 export function App() {
-  console.log('App component rendered');
   return (
     <>
-      <h1>Hello, World!</h1>
+      <Heading atr={123} atr1='string'>
+        Olá, Mundo!
+      </Heading>
     </>
   );
 }
